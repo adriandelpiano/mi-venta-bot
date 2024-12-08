@@ -3,6 +3,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 
 TOKEN = '7593052075:AAGz7CEyC_wPcI8yUYv_1CEEqC3SibDbFO0'
 PROVIDER_TOKEN = 'TEST-b26531a8-7cb9-42d0-ab4c-e0e17d802a12'
+GROUP_ID = '-1002479358667'
 
 def start(update: Update, context: CallbackContext) -> None:
     update.message.reply_text('¡Hola! Soy tu bot de ventas. Envía /comprar para ver nuestras fotos y videos.')
